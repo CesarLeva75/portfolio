@@ -1,0 +1,16 @@
+AOS animated Scroll libreria Js
+
+https://michalsnik.github.io/aos/
+componentes de animacion con java script
+
+
+_________________
+Fuentes
+https://fonts.google.com/
+
+Bootstrap
+https://getbootstrap.com/
+
+
+Imagenes
+www.pexels.com/es-es/
