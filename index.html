@@ -23,6 +23,11 @@
     <link rel="stylesheet" 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+    crossorigin="anonymous"
+    >
+    
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
 
@@ -41,7 +46,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Introducción</a>
+                <a class="nav-link active" aria-current="page" target="_blank" href="./archivos/cv.html">Introducción</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Mis proyectos</a>
@@ -98,13 +103,40 @@
           >
               <img src="./images/codigo3.jpg" class="img-fluid" alt="...">
           </div>
-
       </div>
-  
-
   </section>
     
-      <footer>
+  <div class="contact-section">
+    <div class="contact-heading">
+      <h2>Mantenerse en contacto</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="container-contact">
+      <img src="./images/IMG_20220713_122359978_PORTRAIT~2.jpg" alt="">
+      <div class="contact-form">
+        <h4>Enviar un mensaje...</h4>
+        <form class="form-group" action="https://formsubmit.co/cesarle1975@gmail.com" method="POST">
+          <input type="text" placeholder="Nombre" class="input" name="Nombre">
+          <input type="email" placeholder="Email" class="input" name="email">
+          <textarea name="message" placeholder="Por favor ingrese aqui su mensaje..."></textarea>
+          <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+      <footer class="footer">
+
+        <div class="footer-content">
+          <h2>Cesar Leva</h2>
+          <h5>Backend Developer</h5>
+        </div>
+        <div class="sotial-networks">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-twitter-square"></i>
+        </div>
+
         <div class="container">
             <p>&copy; 2022</p>
         </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
 body {
     margin: 0;
     background: lightgray;
@@ -51,3 +53,138 @@ footer {
 .home {
     background-image: url("./images/codigo1.jpg");
 }
+
+
+
+.about img {
+    width: 100%;
+    grid-column: 1/5;
+  }
+  
+  .about-info {
+    grid-column: 5/10;
+    padding: 3em;
+  }
+  
+  .about-info h2 {
+    font-size: 2em;
+    color: #191c32;
+  }
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+.portfolio,
+.contact-section {
+    width: 100vw;
+    background-color: #191c32;
+    color: #fff;
+  }
+  
+
+
+  .contact-section img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+    padding: 3em;
+  }  
+
+  .portfolio-heading {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  
+  .portfolio-heading h2,
+  .contact-heading h2 {
+    font-size: 2.5em;
+    color: #fff;
+  }
+  
+  .portfolio .container {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+  }
+  .form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .form-group .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+    background-color: rgb(19, 35, 35);
+  }
+  
+  .footer-content h2 {
+    font-size: 3em;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .sotial-networks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+  }
+  
+  .sotial-networks i {
+    font-size: 1.5em;
+  }
+  .contact-section {
+    padding: 3em;
+  }
+  
+  .container-contact {
+    margin: 0 auto;
+    margin-top: 10em;
+  }
