@@ -6,13 +6,30 @@ body {
 }
 
 
+
+.bg-text span {
+    color: aqua;
+}
+.bg-text h1 {
+    font-size: 3em;
+}
+.brand {
+    margin-top: -7px;
+}
+  .brand span {
+    color: aqua;
+}
+
+
+
+
 .bg {
     text-align: center;
     padding: 10px;
     height: 100vh;
     background-size: 40px;
     box-sizing: border-box;
-    filter: blur(8px);
+    filter: blur(3px);
 }
 
 .bg-text {
@@ -27,7 +44,7 @@ body {
     width: 80%;
     padding: 20px;
     text-align: center;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Rubik Mono One', 'New Tegomin';
 }
 
 .custom-section {
@@ -51,7 +68,12 @@ footer {
     margin-top: 40px;
 }
 .home {
-    background-image: url("./images/codigo1.jpg");
+    background-image: url("./images/codigo2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+
 }
 
 
@@ -85,16 +107,6 @@ footer {
     background-color: #191c32;
     color: #fff;
   }
-  
-
-
-  .contact-section img {
-    width: 750px;
-    height: 700px;
-    bottom: 0px;
-    padding: 3em;
-  }  
-
   .portfolio-heading {
     width: 100vw;
     display: flex;
@@ -102,14 +114,12 @@ footer {
     justify-content: center;
   
   }
-  
-  
   .portfolio-heading h2,
   .contact-heading h2 {
     font-size: 2.5em;
     color: #fff;
   }
-  
+
   .portfolio .container {
     width: 80vw;
     height: 80vh;
@@ -118,6 +128,24 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
+  .contact-section {
+    padding: 3em;
+  }
+
+  .contact-section img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+    padding: 3em;
+  }  
+
+  .container-contact {
+    margin: 0 auto;
+    margin-top: 10em;
+  }
+  
+  
   .form-group {
     display: flex;
     flex-direction: column;
@@ -180,11 +208,6 @@ footer {
   .sotial-networks i {
     font-size: 1.5em;
   }
-  .contact-section {
-    padding: 3em;
-  }
+ 
   
-  .container-contact {
-    margin: 0 auto;
-    margin-top: 10em;
-  }
+  
